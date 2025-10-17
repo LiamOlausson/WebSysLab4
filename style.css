@@ -1,0 +1,32 @@
+/* Default background */
+body {
+    background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+    font-family: 'Inter', sans-serif;
+    transition: background 0.8s ease-in-out;
+}
+
+body.clear {
+    background: linear-gradient(to bottom right, #ffe082, #ffecb3); /* sunny */
+}
+
+body.clouds {
+    background: linear-gradient(to bottom right, #cfd8dc, #eceff1); /* cloudy */
+}
+
+body.rain {
+    background: linear-gradient(to bottom right, #90a4ae, #b0bec5); /* rainy */
+}
+
+body.thunderstorm {
+    background: linear-gradient(to bottom right, #616161, #9e9e9e); /* stormy */
+}
+
+body.snow {
+    background: linear-gradient(to bottom right, #ffffff, #e0f7fa); /* snowy */
+}
+
+body.mist,
+body.haze,
+body.fog {
+    background: linear-gradient(to bottom right, #bdbdbd, #e0e0e0); /* foggy/misty */
+}
