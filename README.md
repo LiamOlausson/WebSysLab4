@@ -1,8 +1,5 @@
 # WebSysLab4
 
-
-## Process
-
 ## Prompts
 ### Prompt 1
 Complete this assignment by using the openweather API and the API from, https://api.openuv.io/api. Here is the assignement details Use OpenWeatherMap for this lab! Connect to its API and see what information you get back from it. Don’t forget to check out the HTTP response headers: do they include extra metadata not found in the JSON that you might find useful?
